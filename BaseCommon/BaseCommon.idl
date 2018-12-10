@@ -1,0 +1,18 @@
+// BaseCommon.idl : BaseCommon的 IDL 源
+//
+
+// 此文件将由 MIDL 工具处理以
+// 产生类型库(BaseCommon.tlb)和封送处理代码。
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(36EB4DA7-5A3A-4274-B00D-431E94215023),
+	version(1.0),
+]
+library BaseCommonLib
+{
+	importlib("stdole2.tlb");
+};
+

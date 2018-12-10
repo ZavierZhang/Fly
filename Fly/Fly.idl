@@ -1,0 +1,18 @@
+// Fly.idl : Fly的 IDL 源
+//
+
+// 此文件将由 MIDL 工具处理以
+// 产生类型库(Fly.tlb)和封送处理代码。
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(95EDCDBB-B863-44C5-860F-605AC537CBBC),
+	version(1.0),
+]
+library FlyLib
+{
+	importlib("stdole2.tlb");
+};
+

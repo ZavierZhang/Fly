@@ -1,0 +1,18 @@
+// FlyUI.idl : FlyUI的 IDL 源
+//
+
+// 此文件将由 MIDL 工具处理以
+// 产生类型库(FlyUI.tlb)和封送处理代码。
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(9381684D-78AB-4BF6-BD19-A463813E32C9),
+	version(1.0),
+]
+library FlyUILib
+{
+	importlib("stdole2.tlb");
+};
+
