@@ -17,6 +17,9 @@
       <UniqueIdentifier>{8a554349-cebc-4400-8818-1a09995531b4}</UniqueIdentifier>
       <SourceControlFiles>False</SourceControlFiles>
     </Filter>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{68ddf1fc-a706-40bd-8003-34708a23e983}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">

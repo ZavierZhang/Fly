@@ -27,12 +27,7 @@ extern "C" int WINAPI _tWinMain(HINSTANCE /*hInstance*/, HINSTANCE /*hPrevInstan
 {
 	::OleInitialize(NULL);
 	::CoInitialize(NULL);
-	//界面初始化工作
-	INITCOMMONCONTROLSEX ex;
-	ex.dwSize = sizeof(ex);
-	ex.dwICC = ICC_WIN95_CLASSES;
-	::InitCommonControlsEx(&ex);
-
+	
 
 	::CoUninitialize();
 	return _AtlModule.WinMain(nShowCmd);
