@@ -54,6 +54,9 @@
     <ClInclude Include="BaseCommon_i.h">
       <Filter>生成的文件</Filter>
     </ClInclude>
+    <ClInclude Include="..\Include\ExportDefine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="BaseCommon.rc">

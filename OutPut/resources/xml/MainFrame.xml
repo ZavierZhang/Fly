@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="544,394" caption="22,22,22,50" roundcorner="5,5" bktrans="true">
+    <Font name="微软雅黑" size="14" bold="false" italic="false" />
+    <Font name="微软雅黑" size="12" bold="false" italic="false" />
+    <VerticalLayout bkcolor="#FF00FFFF">
+      <HorizontalLayout height="16" bkcolor="#FF00AAAA">
+            <Control/>
+           <Button  name="min" bkcolor="#FFAA00DD" width="16"/>
+          <Button  name="close" bkcolor="#FFAAFFFF" width="16"/>
+      </HorizontalLayout>
+      <VerticalLayout/>
+    </VerticalLayout>
+</Window>

@@ -20,6 +20,15 @@
     <Filter Include="Interface">
       <UniqueIdentifier>{68ddf1fc-a706-40bd-8003-34708a23e983}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Login">
+      <UniqueIdentifier>{af3074b5-6a4c-48e6-93bd-d998f29554a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainFrame">
+      <UniqueIdentifier>{3f734c4d-32a8-4722-95c9-1ad9b8bb8358}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AirBubbles">
+      <UniqueIdentifier>{fdeb58e6-b33e-476b-b322-f7b510201b38}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -36,6 +45,15 @@
     </ClCompile>
     <ClCompile Include="FlyUI_i.c">
       <Filter>生成的文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AuxFlyUI.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginWnd.cpp">
+      <Filter>Login</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrame.cpp">
+      <Filter>MainFrame</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -56,6 +74,15 @@
     </ClInclude>
     <ClInclude Include="FlyUI_i.h">
       <Filter>生成的文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginWnd.h">
+      <Filter>Login</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrame.h">
+      <Filter>MainFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\AuxFlyUI.h">
+      <Filter>Interface</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
